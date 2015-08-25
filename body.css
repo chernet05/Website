@@ -1,5 +1,5 @@
 * {
-  margin: 0;}
+  margin: 0; font-size: 24px;}
 
 
 nav {
@@ -102,7 +102,7 @@ body {background-color: #FAFAFA;
     background-size: cover;
     -webkit-font-smoothing: antialiased;
     font-family: "Lato","Helvetica Neue","Helvetica",sans-serif;
-    font-size: 36px;
+    font-size: 24px;
 
 }
 #homepage {background-image: url("wallpaper.jpg") ;background-size: auto no-repeat
@@ -127,6 +127,7 @@ body {background-color: #FAFAFA;
     border: solid 2px grey;
     border-radius: 5px;
     background-color: rgba(85,85,85, 0.86);
+    font-size: 20px;
     
 }
 .board{float: left;
@@ -143,11 +144,11 @@ body {background-color: #FAFAFA;
    
     
     
-   
+   form {padding: 100px}
   
     
   
-     .dis, .information, .distance,.water, .deforest, .d3, .class {
+     .dis, .information, .distance,.water, .deforest, .d3, .class, .poster, .postert, .impedence, .geo {
     float: left;
     margin: 2%;
     width:94%;
@@ -159,36 +160,36 @@ body {background-color: #FAFAFA;
     
     height: auto;}
 
-
+.impedence, .geo {text-align: center;}
 
 
     .dis {width: 25%; float:left;
       background: white;
       padding: 56px;
-      font-size: 32px}
+      font-size: 24px}
 
-     .distance img {width:9px;
+     .distance img {max-width: 900px;
    float:left; 
-    border : 
+  
 
  }
- 
- .tit1 {float:left; padding-left:25%; padding-top: 10px;}
+.tit1 {float:left; padding-left:25%; padding-top: 10px;}
  .tit2 {float: right; padding-right: 25%; padding-top: 10px;}
 
-.information ul {font-size:30px;
+.information ul, .postert ul {font-size:24px;
 margin-left: 40px;}
- .information img , .deforest img{clear: both;width: 49%; padding: 2px; box-shadow: 0px 3px 9px rgba(0,0,0,0.95)}
- .distance img, .water img, .d3 img {width:40%; border: 1px solid silver ;}
-.class img {width: 100%;}
-.d3 h1, .d3 img, .water ul, .water img, .distance h1{
+ .information img , .deforest img, .postert img{clear: both;width: 49%; padding: 2px; box-shadow: 0px 3px 9px rgba(0,0,0,0.95)}
+.d3 h1, .water ul, .distance h2 {padding-left:5%; width:35%; border: 2px solid brown; }
+ .distance img, .water img, .d3 img {width:55%; border: 1px solid red ;}
+.class img, .poster img {max-width: 100%}
+.d3 h1, .d3 img, .water ul, .water img, .distance h2{
 float: left}
-.d3 h1, .water ul, .distance h1 {padding-left: 10%; width:45%;  }
-.water ul li  { font-size: 32px; font-weight: bold;}
-.class .information {text-align: center;}
+
+.water ul li  { font-size: 24px; font-weight: bold;}
+.class .information, .postert {text-align: center;}
 .text {
     
-    
+    font-size: 20px;
     color: white;
     float: left;
     margin: 40px;
@@ -202,7 +203,7 @@ float: left}
       margin-left: 20%;}
 
   .folders{ 
-    width:300px;
+    width:300px\;
     height:900px;
     float:left;
     }
@@ -278,6 +279,7 @@ float:right;
 nav ul {
     z-index: 9999;
 }
+
    
  .footer {
 background: #ccc;
