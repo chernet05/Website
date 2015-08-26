@@ -1,16 +1,12 @@
 $(document).ready(function(){
 
+
 $(".gis1").click(function(){
-		$("#remote").hide();
+		$("#remote").toggle();
 		$("#gis").show();
 	
 });
 
-$(".remote1").click(function(){
-		$("#gis").hide();
-		$("#remote").show();
-	
-});
 
 $(".remote1").click(function(){
 	$("#gis").hide();
@@ -26,7 +22,8 @@ $(".GIS").click(function(){
 $(".Remote").click(function(){
 	$("#gis").hide();
 	$("#remote").show();
-})
+});
+
 
 	var native_width = 0;
 	var native_height = 0;

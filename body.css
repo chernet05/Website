@@ -144,11 +144,14 @@ body {background-color: #FAFAFA;
    
     
     
-   form {padding: 100px}
+
+  .contact h1{font-size: 40px; }
+  .contact ul {    list-style-position: inside;
+}
   
     
   
-     .dis, .information, .distance,.water, .deforest, .d3, .class, .poster, .postert, .impedence, .geo {
+     .contact, .dis, .information, .distance,.water, .deforest, .d3, .class, .poster, .postert, .impedence, .geo {
     float: left;
     margin: 2%;
     width:94%;
@@ -159,6 +162,7 @@ body {background-color: #FAFAFA;
     background-color: silver;
     
     height: auto;}
+   .contact {padding: 100px; display: block; font-family:  Avenir, Helvetica, "Lucida Grande", Lucida, Verdana, sans-seri; width: 80% }
 
 .impedence, .geo {text-align: center;}
 
@@ -179,7 +183,7 @@ body {background-color: #FAFAFA;
 .information ul, .postert ul {font-size:24px;
 margin-left: 40px;}
  .information img , .deforest img, .postert img{clear: both;width: 49%; padding: 2px; box-shadow: 0px 3px 9px rgba(0,0,0,0.95)}
-.d3 h1, .water ul, .distance h2 {padding-left:5%; width:35%; border: 2px solid brown; }
+.d3 h1, .water ul, .distance h2 {padding-left:5%; width:35%;  }
  .distance img, .water img, .d3 img {width:55%; border: 1px solid red ;}
 .class img, .poster img {max-width: 100%}
 .d3 h1, .d3 img, .water ul, .water img, .distance h2{
@@ -196,11 +200,13 @@ float: left}
     width: 40%;
     height: 100%;
 }
-    #gis,#remote {position: relative;
+    #gis,#remote, #other {position: relative;
       
       width: auto;
       height: auto;
-      margin-left: 20%;}
+      margin-left: 20%;
+      display:none;
+    }
 
   .folders{ 
     width:300px\;
